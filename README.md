@@ -1,6 +1,5 @@
 *⚠️ Note: The source code for this project is proprietary and under NDA. This repository documents the technical challenges, architecture, and performance optimizations we implemented.*
 
-
 # From Excel Chaos to Cloud Control: Scaling AquaSwim to 10 Locations
 
 **Role:** Full Stack Developer | **Timeline:** 10 Months | Team Size: 2 | **Status:** Live
@@ -9,7 +8,7 @@
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Nest.js](https://img.shields.io/badge/nestjs-e0234e?style=for-the-badge&logo=nestjs&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ![](dashboard.png)
@@ -53,15 +52,13 @@ To mitigate scheduling conflicts, we developed a real-time validation engine. Wh
 
 ---
 
-
-
 ## 3. The Tech Stack
 
 The application was built for performance and scalability, ensuring it runs smoothly on both office desktops and poolside tablets.
 
-* **Frontend:** `React` `Next.js` `Tailwind CSS` (Chosen for rapid UI development and responsive design).
-* **Backend:** `Node.js` (Handles the complex scheduling logic and API requests).
-* **Database:** `MongoDB` (Selected for its flexibility in handling nested relationships: *Locations > Pools > Lanes > Classes*).
+* **Frontend:** `Next.js` `Tailwind CSS` (Chosen for rapid UI development and responsive design).
+* **Backend:** `Nest.js` (Chosen for its strict modular architecture, allowing us to decouple the complex Scheduling Module from the Auth System, making the code maintainable and testable).
+* **Database:** `MongoDB` (Selected for its flexibility and performance).
 
 ---
 
@@ -71,8 +68,7 @@ The digital transformation moved AquaSwim from reactive fire-fighting to proacti
 
 * **100% Elimination of Double-Bookings:** The smart engine successfully blocks conflicting appointments, saving the front desk estimated hours of dispute resolution per week.
 * **Real-Time Global Visibility:** HQ can now pull a "Global Revenue Report" in seconds—a process that previously took days of compiling spreadsheets from 10 different branches.
-* **Scalability:** The new architecture allows the client to onboard new locations in clicks rather than days.
-
+* **Multi-Tenant Scalability:** Engineered the schema to be **tenant-agnostic**, allowing HQ to deploy a new location instance in under 5 minutes without code changes or server restarts.
 
 
 
