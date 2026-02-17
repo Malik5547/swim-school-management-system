@@ -12,7 +12,7 @@
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-![](375shots_so.png)
+![](dashboard.png)
 
 ---
 
@@ -72,6 +72,7 @@ The digital transformation moved AquaSwim from reactive fire-fighting to proacti
 * **100% Elimination of Double-Bookings:** The smart engine successfully blocks conflicting appointments, saving the front desk estimated hours of dispute resolution per week.
 * **Real-Time Global Visibility:** HQ can now pull a "Global Revenue Report" in seconds—a process that previously took days of compiling spreadsheets from 10 different branches.
 * **Scalability:** The new architecture allows the client to onboard new locations in clicks rather than days.
+
 
 
 
