@@ -17,7 +17,7 @@
 
 ## 1. The Challenge: Drowning in Spreadsheets
 
-As AquaSwim expanded to **10 locations**, their manual operations hit a breaking point. Relying on fragmented Excel sheets and paper logs created a logistical nightmare for headquarters.
+As the franchise expanded to **10 locations**, their manual operations hit a breaking point. Relying on fragmented Excel sheets and paper logs created a logistical nightmare for headquarters.
 
 The business was facing three critical issues:
 
@@ -31,7 +31,7 @@ They needed a system that could handle complex logistics while remaining simple 
 
 ## 2. The Solution: A Multi-Tenant Cloud Platform
 
-We engineered **AquaSwim**, a custom cloud-native web application designed to centralize operations while respecting the hierarchy of a franchise model.
+We engineered a custom cloud-native web application designed to centralize operations while respecting the hierarchy of a franchise model.
 
 ### Granular Role-Based Access Control (RBAC)
 
@@ -64,11 +64,12 @@ The application was built for performance and scalability, ensuring it runs smoo
 
 ## 4. The Results
 
-The digital transformation moved AquaSwim from reactive fire-fighting to proactive growth.
+The digital transformation moved the franchise from reactive fire-fighting to proactive growth.
 
 * **100% Elimination of Double-Bookings:** The smart engine successfully blocks conflicting appointments, saving the front desk estimated hours of dispute resolution per week.
 * **Real-Time Global Visibility:** HQ can now pull a "Global Revenue Report" in seconds—a process that previously took days of compiling spreadsheets from 10 different branches.
 * **Multi-Tenant Scalability:** Engineered the schema to be **tenant-agnostic**, allowing HQ to deploy a new location instance in under 5 minutes without code changes or server restarts.
+
 
 
 
