@@ -1,6 +1,6 @@
 *⚠️ Note: The source code for this project is proprietary and under NDA. This repository documents the technical challenges, architecture, and performance optimizations we implemented.*
 
-# From Excel Chaos to Cloud Control: Scaling AquaSwim to 10 Locations
+# From Excel Chaos to Cloud Control: Scaling a Swimming Franchise to 10 Locations
 
 **Role:** Full Stack Developer | **Timeline:** 10 Months | Team Size: 2 | **Status:** Live
 
@@ -69,6 +69,7 @@ The digital transformation moved AquaSwim from reactive fire-fighting to proacti
 * **100% Elimination of Double-Bookings:** The smart engine successfully blocks conflicting appointments, saving the front desk estimated hours of dispute resolution per week.
 * **Real-Time Global Visibility:** HQ can now pull a "Global Revenue Report" in seconds—a process that previously took days of compiling spreadsheets from 10 different branches.
 * **Multi-Tenant Scalability:** Engineered the schema to be **tenant-agnostic**, allowing HQ to deploy a new location instance in under 5 minutes without code changes or server restarts.
+
 
 
 
